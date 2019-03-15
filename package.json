@@ -1,0 +1,19 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/ui",
+      "packages/web"
+    ],
+    "nohoist": [
+      "**/@mono/ui"
+    ]
+  },
+  "engines": {
+    "node": "^10.15.1",
+    "yarn": "1.13.0"
+  }
+}
