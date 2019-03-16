@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "@mono/ui";
+import { Header, Button } from "@mono/ui";
 
 import "./index.css";
 
@@ -23,6 +23,10 @@ class Home extends React.Component {
             <a href="https://palmer.chat">Community Slack</a>
           </li>
         </ul>
+        <Button
+          onPress={() => alert("Hello World!")}
+          title="Here's a React Native (Web) button!"
+        />
       </div>
     );
   }
