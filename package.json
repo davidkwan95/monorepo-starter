@@ -5,8 +5,7 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/ui",
-      "packages/web"
+      "packages/*"
     ],
     "nohoist": [
       "**/@mono/ui"

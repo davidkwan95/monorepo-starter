@@ -1,15 +1,16 @@
 import React from "react";
-import "./index.css";
-import logo from "./react.svg";
+import { View, Text } from "react-native";
+// import logo from "./react.svg";
+import styles from "./styles.js";
 
 export class Header extends React.Component {
   render() {
     const { title } = this.props;
     return (
-      <div className="Home-header">
-        <img src={logo} className="Home-logo" alt="logo" />
-        <h2>{title}</h2>
-      </div>
+      <View style={styles.container}>
+        {/* <img src={logo} className="Home-logo" alt="logo" /> */}
+        <Text style={styles.title}>{title}</Text>
+      </View>
     );
   }
 }

@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Monorepo Mobile",
+    "description": "A very interesting project.",
+    "slug": "mono-mobile",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "rnCliPath": "../../node_modules/react-native/local-cli/cli.js",
+    "entryPoint": "./index.js",
+    "packagerOpts": {
+      "config": "./rn-cli.config.js",
+      "projectRoots": ""
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
